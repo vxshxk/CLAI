@@ -1,0 +1,21 @@
+{
+  "name": "clai",
+  "version": "1.0.0",
+  "description": "An AI CLI Tool",
+  "license": "ISC",
+  "author": "vxshxk",
+  "type": "module",
+  "scripts": {
+    "test": "clai"
+  },
+  "bin": {
+    "clai": "./bin/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.5.1",
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
+    "yargs": "^18.0.0"
+  }
+}
